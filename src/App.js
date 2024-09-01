@@ -22,7 +22,7 @@ function App() {
                     <p class="card-text">
                       Honest reviews and Virtual Tour to ensure 100% booking satisfaction
                     </p>
-                    <a href="#" class="btn btn-primary">Explore Now</a>
+                    <a href="./App.js" class="btn btn-primary">Explore Now</a>
                   </div>
                 </div>
                 <div className="col-sm-6">

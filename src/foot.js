@@ -7,7 +7,7 @@ const Foot = () => {
             </div>
             <div className="col-sm-3">
                 <ul className='ft'>
-                    <li><a href="#">About</a></li>
+                    <li>About</li>
                     <li>Blogs</li>
                     <li>ContactUs</li>
                     <li>FAQ</li>
