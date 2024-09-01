@@ -1,0 +1,27 @@
+/* .navbar{
+  background-color: darkgray;
+  list-style-type:none; 
+} */
+.row{
+  margin:4px;
+  padding:4px;
+}
+.nv
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height:4%;
+}
+.lis{
+  float: left;
+  padding: 10px;
+  margin:4px;
+}
+img{
+  height:35vh;
+}
+.card{
+  height:35vh;
+}
