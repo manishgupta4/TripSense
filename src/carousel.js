@@ -1,40 +1,58 @@
 import './foot.css';
+import React from 'react'
+import {Carousel} from 'react-bootstrap'
 
-function Carsl() {
-  return (
-    <div className="row carsl">
-        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                <img className="d-block w-100" src="..." alt="First slide"/>
-                <div className="carousel-caption d-none d-md-block">
-                    <h5>Hi</h5>
-                    <p>First</p>
-                </div>
-                </div>
-                <div className="carousel-item">
-                <img className="d-block w-100" src="..." alt="Second slide"/>
-                <div className="carousel-caption d-none d-md-block">
-                    <h5>Hello</h5>
-                    <p>Second</p>
-                </div>
-                </div>
-                <div className="carousel-item">
-                <img className="d-block w-100" src="..." alt="Third slide"/>
-                Third slide
-                </div>
-            </div>
-            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Previous</span>
-            </a>
-            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="sr-only">Next</span>
-            </a>
-            </div>
-    </div>
-  );
+const Carsl = () => {
+    return (
+        <>
+            <Carousel>
+                <Carousel.Item interval={1000}>
+                    <img
+                        className="d-block w-100"
+                        src="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>This is the first slide!</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={500}>
+                    <img
+                        className="d-block w-100"
+                        src="https://images.pexels.com/photos/1480688/pexels-photo-1480688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="Second slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://images.pexels.com/photos/1480687/pexels-photo-1480687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://images.pexels.com/photos/1480689/pexels-photo-1480689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Fourth slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+        </>
+    )
 }
 
 export default Carsl;
