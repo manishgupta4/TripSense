@@ -1,6 +1,5 @@
 import Nvbr from './navbar.js';
 import './App.css';
-import image from './group.png';
 import Foot from './foot.js';
 import Carsl from './carousel.js';
 import Card from './card.js';
