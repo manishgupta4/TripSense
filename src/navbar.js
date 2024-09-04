@@ -2,15 +2,21 @@ import './App.css';
 function Nvbr() {
   return (
     <div className='row'>
-        <ul className='nv'>
-            <div className="col-sm-12">
-              <li className='lis'><h3>TripSense</h3></li>
-              <li className='lis'>AboutUs</li>
-              <li className='lis'>Blog</li>
-              <li className='lis'>ContactUs</li>
-              <li className='lis'>FAQ</li>
+        <nav className="navbar navbar-expand-sm ">
+        <div className="container">
+            <a className="navbar-brand mr-auto" href="index.html">
+                <img src="logo.png"  alt =" " id="logo"/>
+                TripSense
+            </a>
+                <ul className="navbar-nav ml-auto">
+                    <li className="nav-item"> <a href="#" className=" nav-link">About Us</a></li>
+                    <li className="nav-item"> <a href="#" className=" nav-link">Blog </a></li>
+                    <li className="nav-item"><a href="#" className=" nav-link">Contact Us </a></li>
+                    <li className="nav-item"> <a href="#" className=" nav-link">FAQ </a></li>
+                </ul>
+
             </div>
-        </ul> 
+    </nav>
        </div>
     
   );

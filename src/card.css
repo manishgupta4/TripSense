@@ -1,0 +1,9 @@
+.media{
+    height:30%;
+    background-color: rgb(255, 181, 76);
+    overflow: hidden; 
+}
+img{
+    width:auto;
+    height:200px;
+}

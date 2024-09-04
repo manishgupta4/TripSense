@@ -1,8 +1,9 @@
 import Nvbr from './navbar.js';
 import './App.css';
-import image from './group.jpg';
+import image from './group.png';
 import Foot from './foot.js';
 import Carsl from './carousel.js';
+import Card from './card.js';
 function App() {
   return (
     <div className="App">
@@ -12,27 +13,9 @@ function App() {
         </div>
       </div>
         <div className="row">
-            <div className="card">
-              <div className="row">
-                <div className="col-sm-6">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Top Hotels Suggestion for your next Trip
-                    </h5>
-                    <p class="card-text">
-                      Honest reviews and Virtual Tour to ensure 100% booking satisfaction
-                    </p>
-                    <a href="./App.js" class="btn btn-primary">Explore Now</a>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                 <img src={image} alt="..."></img>
-                </div>
-              </div>
-
-            </div>
+          <Card/>
         </div>
-        <div className="row">
+        <div className="row px-5">
           <div className="col-sm-6">
               <h3>Why choose us?</h3>
               <h6>Best Hotel Prices across multiple booking sites</h6>
