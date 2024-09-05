@@ -5,7 +5,7 @@ import Carsl from './carousel.js';
 import Card from './card.js';
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <div className="row">
         <div className="col-sm-12">
           <Nvbr />
@@ -42,7 +42,6 @@ function App() {
         <div className="row">
           <Foot/>
         </div>
-        
     </div>
   );
 }
