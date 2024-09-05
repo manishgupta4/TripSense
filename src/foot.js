@@ -2,7 +2,7 @@ import './foot.css';
 import image from './logo.png';
 const Foot = () => {
     return ( 
-        <div className='row mt-5 mb-1 px-5 py-3 foot'>
+        <div className='row mt-5 px-5 py-3 foot'>
             <div className="col-sm-4 px-4 py-2 my-4">
                 <a className="navbar-brand mr-auto" href="index.html">
                     <img src={image} alt ="TS"id="logo"/>

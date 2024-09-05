@@ -2,7 +2,7 @@ import image from './group.png';
 import './card.css';
 const Card = () => {
     return ( 
-            <div className="media row px-5 pt-5 mx-2 my-2">
+            <div className="row media px-5 pt-5 mx-2 my-2">
                 <div className="media-body col-sm-8">
                     <h2 className='media-heading'>Top Hotels Suggestion for your next Trip</h2>
                     <p className="card-text">

@@ -4,8 +4,7 @@ function Nvbr() {
   return (
     <div className='row'>
         <nav className="navbar navbar-expand-sm ">
-        <div className="container">
-            <a className="navbar-brand mr-auto" href="index.html">
+            <a className="navbar-brand" href="index.html">
                 <img src={image}  alt =" " id="logo"/>
                 TripSense
             </a>
@@ -15,8 +14,6 @@ function Nvbr() {
                     <li className="nav-item"><a href="index.html" className=" nav-link">Contact Us </a></li>
                     <li className="nav-item"> <a href="index.html" className=" nav-link">FAQ </a></li>
                 </ul>
-
-            </div>
     </nav>
        </div>
     
